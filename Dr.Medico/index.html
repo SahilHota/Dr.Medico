@@ -1,0 +1,263 @@
+
+<html lang="en">
+<head>
+  
+  <title>Dr.MEdico</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 {
+    background-color: #e7bddb; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 {
+    background-color: #ec92d9; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 {
+    background-color: #ffffff; /* White */
+    color: #a1a8fa;
+  }
+  .bg-4 {
+    background-color: #b1ffb1; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  li {
+  list-style-type: circle;
+  }
+ a {
+   color: white;
+ }
+  a:hover {
+  color: #ffe6f0;
+  opacity: .4;
+   text-decoration: none;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">MENTAL HEALTH DIAGONSE</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#who">WHO</a></li>
+        <li><a href="#what">WHAT</a></li>
+        <li><a href="#help">RESOURCES</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin"><b>What do we do?</b></h3>
+  <img src="images.jpg" class="rounded" style="display:inline" alt="Logo" width="473" height="360">
+  <h3><b>description</b></h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center" id="what">
+  <h3 class="margin">Our Mission</h3>
+  <p>We aim to...well...spread mental health awarness!  As Btech students, we understand that things can be stressful at times.  We try to promote awareness for stress, anxiety, and other issues!</p>
+  <a href="#quiz" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-list-alt"></span> Take Our Quiz!
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center" id="who">
+  <h3 class="margin">About Us</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Anum is a freshman in high school.  Aside from coding, she loves calligraphy and puzzle-solving.  Overall, she hopes to help to ease the stress that often comes when going to high school!
+      </p>
+      <img src="brain.png" class="img-responsive margin" style="width:100%" alt="anum">
+    </div>
+    <div class="col-sm-4">
+      <p>Anjana is a senior in high school. She is a varsity golfer and enjoys making ceramics sculptures. Anjana hopes to pursue entrepreneurship in the future.</p>
+      <img src="happy.jpg" class="img-responsive margin" style="width:100%" alt="anjana">
+    </div>
+    <div class="col-sm-4">
+      <p>Hana is a junior in high school. She is a part of her school's STEM Club and deabate team. Hana hopes to study computer science in college in the future.</p>
+      <img src="images.jpg" class="img-responsive margin" style="width:100%" alt="hana">
+    </div>
+  </div>
+</div>
+<hr>
+<div class="container-fluid bg-3 text-center" >
+  <!-- <h3 class="margin">Anxiety Quiz</h3><br> -->
+  <!-- <html>
+  <head>
+  <title>Anxiety Quiz</title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+  body {
+  background-color: #ffffff;
+  font-family: Montserrat;
+  }
+  #main {
+  width: 80%;
+  max-width: 950px;
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  }
+  #header {
+  margin-top: 0;
+  border: 2px solid black;
+  padding: 5px;
+  height: 250px;
+  background: #9C0D38;
+  /*background-image: url("code.jpg"); commented out because image not found*/
+  color: white;
+  text-align: center;
+  }
+  label {
+  display: block;
+  }
+  input {
+  width: 30px;
+  margin-left: 20px;
+  }
+  h2 {
+  clear: both;
+  padding-top: 20px;
+  }
+  button {
+  width: 100px;
+  margin-top: 20px;
+  color: black;
+  border: 1px solid black;
+  align-items: center;
+  }
+  </style>
+  </head> -->
+
+  <div id="main">
+  <div id="quiz">
+  </div>
+  <div id="header">
+  <br></br>
+  <h1> Anxiety Detector</h1>
+  <h2> Take this to see to get a better understanding of the severity of your anxiety.</h2>
+  </div>
+  <form onsubmit="event.preventDefault(); quiz();">
+<br>
+  <h4>Please select your gender</h4>
+  <label for="var_string"><input type="radio" name="variable" value="10" id="var_string" /> Male</label> <br>
+  <label for="var_join"><input type="radio" name="variable" value="20" id="var_join" /> Female</label> <br>
+  <label for="var_info"><input type="radio" name="variable" value="0" id="var_info" /> Other</label> <br>
+
+  <h4>What is your age?</h4>
+  <label for="var_string"><input type="radio" name="variable1" value="10" id="var_string" /> 0-18</label> <br>
+  <label for="var_join"><input type="radio" name="variable1" value="20" id="var_join" /> 19-24</label> <br>
+  <label for="var_info"><input type="radio" name="variable1" value="5" id="var_info" /> 25 or above</label> <br>
+
+  <h4>Do you find yourself worrying... </h4>
+  <label for="var_string"><input type="radio" name="variable2" value="0" id="var_string" /> Never or rarely</label> <br>
+  <label for="var_join"><input type="radio" name="variable2" value="10" id="var_join" /> Sometimes</label> <br>
+  <label for="var_info"><input type="radio" name="variable2" value="20" id="var_info" /> Always</label><br>
+
+
+  <h4>Do you find yourself having a racing pulse, sweaty palms, shaky hands, and dry mouth often?</h4>
+  <label for="var_string"><input type="radio" name="variable3" value="0" id="var_string" /> Never or rarely</label> <br>
+  <label for="var_join"><input type="radio" name="variable3" value="10" id="var_join" /> Sometimes</label> <br>
+  <label for="var_info"><input type="radio" name="variable3" value="20" id="var_info" /> Always</label> <br>
+
+  <h4>Which is the best description of your concentration?</h4>
+  <label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" /> I am usually focused on the task at hand</label> <br>
+  <label for="cat_join"><input type="radio" name="con" value="10" id="cat_join" /> I tend to loose my focus sometimes</label> <br>
+  <label for="cat_info"><input type="radio" name="con" value="20" id="cat_info" /> It is hard to focus and concentrate</label> <br>
+
+  <h4>Finally, have you had a panic attack in the past week?</h4>
+  <label for="if_string"><input type="radio" name="ifstate" value="20" id="if_string" /> Yes, a few times</label> <br>
+  <label for="if_join"><input type="radio" name="ifstate" value="15" id="if_join" /> Yes, just once. </label> <br>
+  <label for="if_info"><input type="radio" name="ifstate" value="10" id="if_info" /> None this week, but some in the past</label> <br>
+  <label for="if_condition"><input type="radio" name="ifstate"  value="0" id="if_condition" /> I have never had a panic attack</label> <br>
+
+
+  <input type="submit" value="submit">
+  </form>
+  <br>
+  <p>Total: <span id="grade">__</span></p>
+  <p id="grade2"></p>
+
+  <script type="text/javascript" src="untitled.js"></script>
+  </div>
+  </body>
+
+
+</div>
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center" id="help">
+  <h3 class="margin">Want More Information?</h3>
+  <p>Check out these great resources to learn more!</p>
+
+  <li>  <a href="http://www.heardalliance.org/youth-anxiety/">The Heard Youth Alliance</a> </li>
+  <li>  <a href="https://www.aacap.org/aacap/families_and_youth/resource_centers/anxiety_disorder_resource_center/home.aspx">AACAP Resource Center</a> </li>
+  <li>  <a href="https://adaa.org/living-with-anxiety/children">Anxiety & Depression Association</a> </li>
+  <li>  <a href="http://www.worrywisekids.org/">Word Wise Kids- A Parent's Guide</a> </li>
+  <li>  <a href="http://www.heardalliance.org/youth-anxiety/">The Heard Youth Alliance</a> </li>
+  <li>  <a href="https://www.youthbeyondblue.com/">Youth Beyond Blue</a> </li>
+  <li>  <a href="http://www.lynnlyonsnh.com/teen-depression-anxiety/">What Causes Teen Anxiety</a> </li>
+  <li>  <a href="https://psychcentral.com/news/2014/02/28/treatment-for-youth-anxiety-is-effective-lasting/66511.html">Why Solutions are Working</a> </li>
+  <li>  <a href="https://adaa.org/supportgroups">Find a Support Group Near You!</a> </li>
+</div>
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p> Made with <span class="glyphicon glyphicon-heart"></span> </p>
+
+  <p>Follow us!</p>
+
+  <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<a href="https://www.instagram.com/anumqahmad" class="fa fa-instagram"></a>
+<a href="https://www.snapchat.com/add/anjcham" class="fa fa-snapchat-ghost"></a>
+<a href="http://www.twitter.com/hanamemon" class="fa fa-twitter"></a>
+
+</footer>
+</body>
+</html>
