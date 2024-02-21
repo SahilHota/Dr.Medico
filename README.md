@@ -1,0 +1,1 @@
+Dr. Medico is an innovative and user-friendly web application designed to analyze and diagnose mental health conditions. Leveraging advanced algorithms and psychological assessments, this app aims to provide valuable insights into users' mental well-being, fostering awareness and facilitating early intervention.Feel free to open issues, suggest features, or submit pull requests.
